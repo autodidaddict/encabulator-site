@@ -1,0 +1,20 @@
+box: debian
+
+build:
+  steps:
+    - arjen/hugo-build:
+        version: "0.18"
+        theme: vec
+
+deploy:
+  steps:
+    - wercker/install-packages:
+        packages: wget
+    - xchapter7x/cf-push:
+        cloudfoundry_user_name: $USERNAME
+        cloudfoundry_user_pass: $PASSWORD
+        cloudfoundry_org: $CF_ORG
+        cloudfoundry_space: $CF_SPACE
+        cloudfoundry_api_url: $CF_APIURL
+        cloudfoundry_app_name: $CF_APPNAME
+        cloudfoundry_use_manifest: true
