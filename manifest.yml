@@ -1,0 +1,6 @@
+---
+applications:
+- name: encabulatorsite
+  memory: 64M
+  domain: encabulator.io
+  buildpack: staticfile_buildpack

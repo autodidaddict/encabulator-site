@@ -1,0 +1,13 @@
+.project
+public/
+dev/
+/.DS_Store
+/_builds/
+/_projects/
+/_steps/
+
+# Emacs temp files ignores
+*~
+\#*\#
+.\#*
+.DS_Store

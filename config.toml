@@ -1,0 +1,27 @@
+baseurl = "http://www.encabulator.io/"
+title = "Encabulator"
+theme = "vec"
+languageCode = "en-us"
+paginate = 10
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
+  [[menu.main]]
+    name = "contact"
+    weight = 1
+    url = "/contact"
+  [[menu.main]]
+    name = "faq"
+    weight = 2
+    url = "/faq"
+
+[params]
+  Keywords = "encabulator, encabulation, retro, technology, maker, tinker"
+  Description = "Encabulation"
+  Avater = "img/turboencabulator-primary.idge.jpg"
+  SelfIntro = "Coming soon..."
+  Email = "coming@soon.com"
