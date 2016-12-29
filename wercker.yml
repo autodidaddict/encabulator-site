@@ -5,6 +5,10 @@ build:
     - arjen/hugo-build:
         version: "0.18"
         theme: vec
+        dev_flags: -D -F
+        force_install: true
+        config: config.toml
+        prod_branches: master
 
 deploy:
   steps:
