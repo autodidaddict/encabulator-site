@@ -1,4 +1,4 @@
-box: jguyomard/hugo-builder:0.18
+box: cloudnativego/hugo:0.18
 
 build:
   steps:
