@@ -1,21 +1,37 @@
-box: cloudnativego/hugo:0.18
+#box: cloudnativego/hugo:0.18
 
-build:
-  steps:
-    - script:
-        name: generate hugo
-        code: |          
+#build:
+#  steps:
+#    - script:
+#        name: generate hugo
+#        code: |
           # The following line is necessary to circumvent
           # functional inconsistencies between Mac OS and
           # Linux. It is ugly. It is awful. But, it is.
-          cp -R ./themes/vec/static ./static
-          hugo -t vec
+#          cp -R ./themes/vec/static ./static
+#          hugo -t vec
+#    - script:
+#        name: add contents to output
+#        code: |
+#          echo ${WERKCER_OUTPUT_DIR}
+#          cp -R ./ ${WERCKER_OUTPUT_DIR}
+#          cd ${WERCKER_OUTPUT_DIR}
+
+box: debian
+
+build:
+  steps:
+    - arjen/hugo-build:
+        version: "0.18"
+        force_install: yes
+        theme: vec
     - script:
         name: add contents to output
         code: |
           echo ${WERKCER_OUTPUT_DIR}
           cp -R ./ ${WERCKER_OUTPUT_DIR}
           cd ${WERCKER_OUTPUT_DIR}
+
 deploy:
   steps:
     -  xchapter7x/cf-push:
