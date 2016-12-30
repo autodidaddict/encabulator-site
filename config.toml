@@ -11,12 +11,16 @@ paginate = 10
     weight = 0
     url = "/posts"
   [[menu.main]]
-    name = "contact"
+    name = "wopr"
     weight = 1
+    url = "/wopr"
+  [[menu.main]]
+    name = "contact"
+    weight = 2
     url = "/contact"
   [[menu.main]]
     name = "faq"
-    weight = 2
+    weight = 3
     url = "/faq"
 
 [params]

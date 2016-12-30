@@ -1,15 +1,20 @@
-box: debian
+box: jguyomard/hugo-builder:0.18
+
 
 build:
-  steps:
-    - arjen/hugo-build:
-        version: "0.18"
-        theme: vec
-        dev_flags: -D -F
-        force_install: true
-        config: config.toml
-        prod_branches: master
-
+   steps:
+     - script:
+         name: generate hugo
+         code: |
+           cd $WERCKER_SOURCE_DIR
+           hugo
+     - script:
+         name: add contents to output
+         code: |
+           echo ${WERKCER_OUTPUT_DIR}
+           cp -R ./ ${WERCKER_OUTPUT_DIR}
+           cd ${WERCKER_OUTPUT_DIR}
+           
 deploy:
   steps:
     - wercker/install-packages:
