@@ -7,8 +7,11 @@ draft = false
 date = "2016-12-29T20:31:35-05:00"
 tags = ["wopr", "maker"]
 categories = ["WOPR"]
+banner = "/img/wopr/WOPR_front_close.png"
 
 +++
+
+![WOPR Front - Zoomed](/img/wopr/WOPR_front_close.png)
 
 # What is W.O.P.R. ?
 If you've been living under a rock since the early 1980s, or you are unfortunate enough never to have seen movies from this time period, then you might not know what the W.O.P.R. is.
