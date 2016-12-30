@@ -5,7 +5,7 @@ build:
     - script:
         name: generate hugo
         code: |
-          hugo
+          hugo -v
     - script:
         name: add contents to output
         code: |
