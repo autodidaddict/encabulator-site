@@ -2,19 +2,19 @@ box: jguyomard/hugo-builder:0.18
 
 
 build:
-   steps:
-     - script:
-         name: generate hugo
-         code: |
-           cd $WERCKER_SOURCE_DIR
-           hugo
-     - script:
-         name: add contents to output
-         code: |
-           echo ${WERKCER_OUTPUT_DIR}
-           cp -R ./ ${WERCKER_OUTPUT_DIR}
-           cd ${WERCKER_OUTPUT_DIR}
-           
+  steps:
+    - script:
+        name: generate hugo
+        code: |
+          cd $WERCKER_SOURCE_DIR
+          hugo
+    - script:
+        name: add contents to output
+        code: |
+          echo ${WERKCER_OUTPUT_DIR}
+          cp -R ./ ${WERCKER_OUTPUT_DIR}
+          cd ${WERCKER_OUTPUT_DIR}
+
 deploy:
   steps:
     - wercker/install-packages:
