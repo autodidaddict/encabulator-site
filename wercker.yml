@@ -9,7 +9,8 @@ build:
           # The following line is necessary to circumvent
           # functional inconsistencies between Mac OS and
           # Linux. It is ugly. It is awful. But, it is.
-          hugo
+          cp -R ./themes/vec/static ./static
+          hugo -t vec
     - script:
         name: add contents to output
         code: |
