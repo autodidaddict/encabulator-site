@@ -1,13 +1,24 @@
 +++
 title = "FAQ"
+toc = true
+comments = false
+draft = false
 +++
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+We all have questions in life. From time to time, we simply don't know the answers. If now is one such time, then please check out the list of Frequently Asked Questions below, and perhaps you will finally find out the answer to meaning of life, or the average speed of an unladen swallow.
 
-## 1. ITEM ONE.
+# 1. What the hell is an encabulator?
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+In the late 1970s some very brilliant and very hilarious people were doing some test runs with video equipment before doing a technical presentation video. Bud Haggert, a name synonymous with technical film voiceovers wrote the script for the "Turbo Encabulator". Since, as a voiceover artist, he rarely understood the technical jargon for the films, he wrote the script to sound as though it was full of complex engineering jargon but it was really nonsense.
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+As lovers of all things technical and geeky, and as marketers, presenters, and technical gurus ourselves, this original film is near and dear to our hearts.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ac7G7xOG2Ag" frameborder="0" allowfullscreen></iframe>
+
+To use an analogy, this video to geeks like us holds similar esteem to that of the _blinker fluid_ and _muffler bearing_ videos for automotive enthusiasts.
+
+# 2. What's the difference between the Retro and the Turbo Encabulators?
+
+Because of this popularity of the original, many companies and talented individuals made their own versions of the original encabulator video. Some of them use the original script with new backgrounds, others have made modifications to the script. One of the most popular knock-offs is the "Retro Encabulator" video for the fictitious company _Rockwell Automation_.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RXJKdh1KZ0w" frameborder="0" allowfullscreen></iframe>
