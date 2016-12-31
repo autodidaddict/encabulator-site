@@ -3,6 +3,8 @@ title = "Encabulator"
 theme = "vec"
 languageCode = "en-us"
 paginate = 10
+googleAnalytics = "UA-89590086-1"
+
 
 [menu]
   # Shown in the side menu.
