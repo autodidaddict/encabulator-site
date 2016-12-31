@@ -16,7 +16,7 @@ banner = "/img/wopr/WOPR_front_close.png"
 # What is W.O.P.R. ?
 If you've been living under a rock since the early 1980s, or you are unfortunate enough never to have seen movies from this time period, then you might not know what the W.O.P.R. is.
 
-WOPR stands for _War Operation Planned Response_, and it is the name of a so-called "super-computer" featured in the movie Wargames. If this still hasn't jogged your memory, then check out this original trailer for the Wargames movie:
+WOPR stands for _War Operation Plan Response_, and it is the name of a so-called "super-computer" featured in the movie Wargames. If this still hasn't jogged your memory, then check out this original trailer for the Wargames movie:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PbSsaoP2K3M" frameborder="0" allowfullscreen></iframe>
 
