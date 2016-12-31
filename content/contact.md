@@ -1,7 +1,7 @@
 +++
 title = "Contact"
 id = "contact"
-formspree = true
+formspree = false
 +++
 
 # Contact
