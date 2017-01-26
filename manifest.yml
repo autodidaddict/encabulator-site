@@ -1,6 +1,6 @@
 ---
 applications:
 - name: encabulatorsite
-  memory: 64M
+  memory: 32M
   domain: encabulator.io
   buildpack: staticfile_buildpack
