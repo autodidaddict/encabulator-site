@@ -22,13 +22,4 @@ jobs:
           name: Generate via hugo
           command: |
             hugo -v        
-      - deploy:
-         name: Deploy to Dockerhub
-         command: |
-           if [ "${CIRCLE_BRANCH}" == "master" ]; then
-             TAG="0.1.${CIRCLE_BUILD_NUM}"
-             docker build -t encabulatorio/encabulator-site:$TAG .
-             docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
-            docker push encabulatorio/encabulator-site:$TAG
-          fi
       
