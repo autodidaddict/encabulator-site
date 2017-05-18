@@ -4,7 +4,7 @@ jobs:
     docker: 
       - image: ubuntu:yakkety
     
-    working_directory: ~/
+    working_directory: /tmp/work
   
     steps:
       - checkout
@@ -13,7 +13,7 @@ jobs:
           name: Get hugo
           command: |
             sudo apt install hugo
-                        
+
       - run: 
           name: Generate via hugo
           command: |
