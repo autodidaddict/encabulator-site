@@ -12,7 +12,7 @@ jobs:
       - run:
           name: Get hugo
           command: |
-            sudo apt install hugo
+            apt-get install hugo
 
       - run: 
           name: Generate via hugo
