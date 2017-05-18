@@ -12,9 +12,7 @@ jobs:
       - run: 
           name: Generate via hugo
           command: |
-            hugo -v
-        
-      - setup_remote_docker
+            hugo -v            
 
       - run:
           name: Build and push Docker image
