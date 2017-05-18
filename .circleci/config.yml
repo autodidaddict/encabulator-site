@@ -2,13 +2,18 @@ version: 2
 jobs:
   build:
     docker: 
-      - image: jojomi/hugo:latest
+      - image: ubuntu:yakkety
     
     working_directory: ~/
   
     steps:
       - checkout
 
+      - run:
+          name: Get hugo
+          command: |
+            sudo apt install hugo
+                        
       - run: 
           name: Generate via hugo
           command: |
