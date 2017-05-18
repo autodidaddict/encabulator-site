@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    docker: 
+      - image: jojomi/hugo:latest
+    
+    working_directory: /
+  
+    steps:
+      - checkout
+
+      - run: 
+        name: Generate via hugo
+        command: |
+          hugo -v
+        
+      - setup_remote_docker
