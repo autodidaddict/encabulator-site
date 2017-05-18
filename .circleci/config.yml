@@ -12,7 +12,8 @@ jobs:
       - run:
           name: Get hugo
           command: |
-            apt-get install hugo
+            wget https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-64bit.deb
+            dpkg -i hugo*.deb
 
       - run: 
           name: Generate via hugo
