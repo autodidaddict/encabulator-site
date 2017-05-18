@@ -1,4 +1,4 @@
-baseurl = "http://www.encabulator.io/"
+baseurl = "/"
 title = "Encabulator"
 theme = "vec"
 languageCode = "en-us"
